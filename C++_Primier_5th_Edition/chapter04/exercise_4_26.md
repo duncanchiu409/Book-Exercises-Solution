@@ -1,0 +1,3 @@
+Question: In our grading example in this section, what would happen if we used `unsiged int` as the type for `quiz 1`?
+
+Answer: The minimum bits of `unsigned int` is 16 bits. The minimum bits of `unsigned long` is 32 bits. There might not be enough bits for the students. However, the size of `unsigned int` is 4 bytes (32 bits). The size of `unsigned long` is 8 bytes. I doubt it might work rather than not.
